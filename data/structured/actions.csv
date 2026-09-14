@@ -1,0 +1,14 @@
+action_id,description,owner,workstream,raised_date,due_date,status,related_id
+ACTION-011,Produce the reconciliation report from migration dry run 2 and circulate to the Data workstream,Priya Nair,Data,2026-08-14,2026-09-04,Closed,RISK-002
+ACTION-012,Confirm penetration test booking and scope with the external supplier,Marcus Chen,Security,2026-08-14,2026-09-11,Closed,RISK-009
+ACTION-014,Complete root cause analysis of the 12 per cent record validation failure rate and propose a remediation approach,Priya Nair,Data,2026-08-21,2026-09-11,In progress,ISSUE-003
+ACTION-016,Publish the agent training schedule and confirm release of staff with contact centre operations,Rachel Adeyemi,Business Change,2026-08-21,2026-09-18,In progress,RISK-008
+ACTION-017,Review remaining 780 knowledge articles and confirm which will be excluded from launch,Nadia Hassan,Business Change,2026-08-28,2026-10-16,In progress,RISK-007
+ACTION-018,Agree the performance test approach and production-equivalent volume profile with Northwind,Elena Vasquez,Technology,2026-08-28,2026-09-25,In progress,RISK-005
+ACTION-019,Escalate UAT environment provisioning to the Infrastructure leadership team,David Renshaw,Programme,2026-09-01,2026-09-08,Closed,RISK-004
+ACTION-021,Confirm the revised UAT environment availability date following the provisioning delay,Sarah Whitfield,Technology,2026-09-08,2026-09-11,Overdue,RISK-004
+ACTION-022,Reforecast the testing schedule against the revised environment date and identify what can be de-scoped,Tom Brennan,Testing,2026-09-08,2026-09-18,In progress,RISK-004
+ACTION-023,Provide a written resource commitment for October and November covering the named Northwind team,James Fitzgerald,Programme,2026-09-08,2026-09-25,In progress,RISK-006
+ACTION-024,Present the cutover rollback plan to the October steering committee for approval,Callum Roberts,Service,2026-09-08,2026-10-13,Open,RISK-011
+ACTION-025,Prepare training materials for the Aurora knowledge assistant reflecting the reduced article set,Rachel Adeyemi,Business Change,2026-09-11,2026-10-09,Open,RISK-007
+ACTION-026,Submit a change request for the additional data cleansing contractor cost,Ingrid Larsen,Programme,2026-09-11,2026-09-25,Open,RISK-010

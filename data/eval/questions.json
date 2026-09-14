@@ -1,0 +1,152 @@
+{
+  "dataset_version": "v1",
+  "notes": "Expected facts are the things a correct answer must contain. Sources list where the evidence lives. Difficulty indicates how many documents must be combined.",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What is in scope for Project Phoenix?",
+      "expected_facts": [
+        "Implementation of Northwind Service Cloud",
+        "Migration of open cases and 24 months of closed history",
+        "Aurora Knowledge Assistant deployment",
+        "Training for 280 agents and 40 back office users",
+        "Decommissioning of CaseTrack 7"
+      ],
+      "sources": ["project_charter.md"],
+      "difficulty": "single_document"
+    },
+    {
+      "id": "Q02",
+      "question": "When is go-live and what has to happen before it?",
+      "expected_facts": [
+        "Go-live is 9 November 2026",
+        "Go-live decision point is 5 November 2026",
+        "Security sign-off MS-08 on 2 November",
+        "Agent training complete MS-09 on 4 November"
+      ],
+      "sources": ["project_charter.md", "milestones.csv"],
+      "difficulty": "two_sources"
+    },
+    {
+      "id": "Q03",
+      "question": "Why is testing amber this week?",
+      "expected_facts": [
+        "UAT environment delayed by five working days",
+        "Infrastructure capacity reassigned to the network refresh programme",
+        "This is the realisation of RISK-004, logged as ISSUE-007",
+        "UAT window compressed from thirteen to eight working days",
+        "ACTION-021 to confirm the revised date is overdue"
+      ],
+      "sources": ["weekly_status_2026_09_11.md", "steering_minutes_2026_09_08.md", "risks.csv", "issues.csv", "actions.csv"],
+      "difficulty": "multi_hop"
+    },
+    {
+      "id": "Q04",
+      "question": "Which high-severity risks threaten the November go-live?",
+      "expected_facts": [
+        "RISK-002 data migration reconciliation failures",
+        "RISK-003 agent rejection of the new interface",
+        "RISK-004 UAT environment readiness",
+        "RISK-005 billing integration under production volumes",
+        "RISK-008 training completion",
+        "RISK-009 security assurance not complete",
+        "RISK-011 cutover weekend overrun"
+      ],
+      "sources": ["risks.csv"],
+      "difficulty": "structured_filter"
+    },
+    {
+      "id": "Q05",
+      "question": "What is the budget variance on the Data workstream?",
+      "expected_facts": [
+        "Data cleansing contractors are 26,000 over plan",
+        "Caledon migration services are on plan with no variance",
+        "Total Data workstream variance is 26,000 adverse"
+      ],
+      "sources": ["budget.csv"],
+      "difficulty": "calculation"
+    },
+    {
+      "id": "Q06",
+      "question": "What actions are overdue and who owns them?",
+      "expected_facts": [
+        "ACTION-021 is overdue",
+        "Owned by Sarah Whitfield",
+        "Concerns confirming the revised UAT environment date"
+      ],
+      "sources": ["actions.csv"],
+      "difficulty": "structured_filter"
+    },
+    {
+      "id": "Q07",
+      "question": "What changed between the status reports of 4 September and 11 September?",
+      "expected_facts": [
+        "Technology moved from Green to Amber",
+        "Testing moved from Green to Amber",
+        "MS-06 UAT environment forecast moved from 12 October to 19 October",
+        "Root cause analysis of validation failures was completed"
+      ],
+      "sources": ["weekly_status_2026_09_04.md", "weekly_status_2026_09_11.md"],
+      "difficulty": "temporal_comparison"
+    },
+    {
+      "id": "Q08",
+      "question": "Why was a retrieval approach chosen for the Aurora assistant rather than fine-tuning?",
+      "expected_facts": [
+        "TR-09 requires every suggestion to cite its source article",
+        "Knowledge articles change frequently and retrieval picks up changes without retraining",
+        "Fine-tuning risked confident answers with no traceable source",
+        "Trade-off is that answer quality is bounded by article quality"
+      ],
+      "sources": ["architecture_decisions.md", "requirements.md"],
+      "difficulty": "two_sources"
+    },
+    {
+      "id": "Q09",
+      "question": "What is the state of the data migration and what is being done about it?",
+      "expected_facts": [
+        "Twelve per cent of records fail post-migration validation",
+        "Two thirds relate to date format handling, resolvable by a transformation rule",
+        "One third relate to orphaned attachment references, requiring manual intervention",
+        "ISSUE-003 remains open",
+        "ACTION-014 root cause analysis is complete"
+      ],
+      "sources": ["issues.csv", "weekly_status_2026_09_11.md", "steering_minutes_2026_09_08.md"],
+      "difficulty": "multi_hop"
+    },
+    {
+      "id": "Q10",
+      "question": "What did the steering committee decide about the compressed UAT window?",
+      "expected_facts": [
+        "DEC-015 approved reducing test scope in principle",
+        "Reducing scope is preferred to moving the go-live date",
+        "Specific de-scoping to be presented at the October committee"
+      ],
+      "sources": ["steering_minutes_2026_09_08.md"],
+      "difficulty": "single_document"
+    },
+    {
+      "id": "Q11",
+      "question": "Who owns the security risks and what is the current position?",
+      "expected_facts": [
+        "Marcus Chen owns RISK-009 and RISK-012",
+        "RISK-009 is open at High severity",
+        "RISK-012 was closed on 21 August following ADR-003",
+        "Penetration test is booked for w/c 19 October with remediation to 2 November",
+        "There is no float before the go-live decision point"
+      ],
+      "sources": ["risks.csv", "steering_minutes_2026_09_08.md", "architecture_decisions.md"],
+      "difficulty": "multi_hop"
+    },
+    {
+      "id": "Q12",
+      "question": "What did we decide about the supplier contract renewal?",
+      "expected_facts": [
+        "The dataset contains no decision about supplier contract renewal",
+        "A correct answer says the information is not available"
+      ],
+      "sources": [],
+      "difficulty": "unanswerable"
+    }
+  ]
+}

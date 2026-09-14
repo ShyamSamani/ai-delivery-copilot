@@ -1,0 +1,6 @@
+issue_id,description,severity,owner,workstream,raised_date,target_resolution,status,related_risk
+ISSUE-002,"Single sign-on integration returns intermittent authentication failures in the system test environment, affecting roughly one in twenty login attempts",Medium,Elena Vasquez,Technology,2026-08-07,2026-09-18,In progress,RISK-005
+ISSUE-003,"Twelve per cent of migrated case records fail post-migration validation, primarily where legacy records hold non-standard date formats or orphaned attachment references",High,Priya Nair,Data,2026-08-19,2026-09-30,In progress,RISK-002
+ISSUE-005,"Northwind has not yet supplied the API specification for the billing platform integration, blocking the integration test scripts",Medium,James Fitzgerald,Programme,2026-08-26,2026-09-16,In progress,RISK-006
+ISSUE-007,UAT environment provisioning is delayed by five working days; infrastructure capacity was reallocated to the network refresh programme without notice to Project Phoenix,High,Sarah Whitfield,Technology,2026-09-05,2026-09-19,Open,RISK-004
+ISSUE-008,"Knowledge article content audit is running behind schedule at 340 of 1,120 articles reviewed against a plan of 560 by this point",Medium,Nadia Hassan,Business Change,2026-09-09,2026-10-16,Open,RISK-007

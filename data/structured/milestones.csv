@@ -1,0 +1,13 @@
+milestone_id,name,phase,baseline_date,forecast_date,status,owner
+MS-01,Programme mobilisation complete,Initiation,2026-04-30,2026-04-30,Complete,David Renshaw
+MS-02,Requirements baselined and signed off,Definition,2026-06-12,2026-06-19,Complete,Nadia Hassan
+MS-03,Solution design approved,Design,2026-07-10,2026-07-10,Complete,Elena Vasquez
+MS-04,Build complete for release 1,Build,2026-08-28,2026-09-04,Complete,Elena Vasquez
+MS-05,System testing complete,Test,2026-10-09,2026-10-09,In progress,Tom Brennan
+MS-06,UAT environment available,Test,2026-10-12,2026-10-19,At risk,Sarah Whitfield
+MS-07,User acceptance testing complete,Test,2026-10-30,2026-10-30,At risk,Tom Brennan
+MS-08,Security assurance and penetration test sign-off,Test,2026-11-02,2026-11-02,Not started,Marcus Chen
+MS-09,Agent training complete,Deploy,2026-11-04,2026-11-04,Not started,Rachel Adeyemi
+MS-10,Go-live decision point,Deploy,2026-11-05,2026-11-05,Not started,Amara Okonkwo
+MS-11,Go-live,Deploy,2026-11-09,2026-11-09,Not started,Callum Roberts
+MS-12,Legacy CaseTrack 7 decommissioned,Close,2027-01-16,2027-01-16,Not started,Callum Roberts

@@ -1,0 +1,14 @@
+line_id,workstream,category,planned_gbp,actual_gbp,forecast_gbp,variance_gbp,period,notes
+BUD-01,Programme,Internal staff,182000,179400,182000,0,2026-09,Tracking to plan
+BUD-02,Technology,Northwind platform licences,640000,640000,640000,0,2026-09,Paid annually in advance
+BUD-03,Technology,Northwind implementation services,410000,298000,428000,18000,2026-09,Additional integration effort agreed in August
+BUD-04,Technology,Cloud infrastructure,96000,71500,108000,12000,2026-09,Additional non-production environment costs
+BUD-05,Data,Caledon migration services,285000,241000,285000,0,2026-09,Tracking to plan
+BUD-06,Data,Data cleansing contractors,48000,39500,74000,26000,2026-09,Extended engagement following validation failures; change request pending
+BUD-07,Testing,Test tooling and automation,62000,54800,62000,0,2026-09,Tracking to plan
+BUD-08,Testing,Test resource,134000,112000,141000,7000,2026-09,Contingency test resource held for the compressed UAT window
+BUD-09,Business Change,Training delivery,156000,68000,156000,0,2026-09,Majority of spend falls in October and November
+BUD-10,Business Change,Content and communications,44000,31200,44000,0,2026-09,Tracking to plan
+BUD-11,Security,Penetration testing and assurance,38000,4500,38000,0,2026-09,Test booked for w/c 19 October
+BUD-12,Service,Transition and hypercare,125000,18000,125000,0,2026-09,Hypercare spend begins at go-live
+BUD-13,Programme,Contingency,180000,0,117000,-63000,2026-09,"Drawn down against integration, cloud, cleansing and test variances"
